@@ -2,7 +2,7 @@ import requests
 from parser import adding
 
 
-product_key = input("Product key? :")
+product_key = input("Product key(s)? :")
 category = None
 
 if "," in product_key:
